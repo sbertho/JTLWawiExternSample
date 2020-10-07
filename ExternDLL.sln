@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternDLL", "ExternDLL\ExternDLL.csproj", "{72809D15-8B5C-4B89-9BF0-D4A926962E75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WawiCoreTest", "WawiCoreTest\WawiCoreTest.csproj", "{BED47575-0EA7-44E8-A5FC-632F0D39B34F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72809D15-8B5C-4B89-9BF0-D4A926962E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72809D15-8B5C-4B89-9BF0-D4A926962E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72809D15-8B5C-4B89-9BF0-D4A926962E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72809D15-8B5C-4B89-9BF0-D4A926962E75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED47575-0EA7-44E8-A5FC-632F0D39B34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED47575-0EA7-44E8-A5FC-632F0D39B34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED47575-0EA7-44E8-A5FC-632F0D39B34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED47575-0EA7-44E8-A5FC-632F0D39B34F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A7F10B8-4351-4869-A388-C6F5A52CBC6A}
+	EndGlobalSection
+EndGlobal

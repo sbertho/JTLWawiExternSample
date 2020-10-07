@@ -1,0 +1,11 @@
+C:\VCS\WawiExternDLL\ExternDLL\obj\Debug\ExternDLL.csprojAssemblyReference.cache
+C:\VCS\WawiExternDLL\ExternDLL\obj\Debug\ExternDLL.Form1.resources
+C:\VCS\WawiExternDLL\ExternDLL\obj\Debug\ExternDLL.Properties.Resources.resources
+C:\VCS\WawiExternDLL\ExternDLL\obj\Debug\ExternDLL.csproj.GenerateResource.cache
+C:\VCS\WawiExternDLL\ExternDLL\obj\Debug\ExternDLL.csproj.CoreCompileInputs.cache
+C:\VCS\WawiExternDLL\ExternDLL\bin\Debug\ExternDLL.exe.config
+C:\VCS\WawiExternDLL\ExternDLL\bin\Debug\ExternDLL.exe
+C:\VCS\WawiExternDLL\ExternDLL\bin\Debug\ExternDLL.pdb
+C:\VCS\WawiExternDLL\ExternDLL\obj\Debug\ExternDLL.exe.config
+C:\VCS\WawiExternDLL\ExternDLL\obj\Debug\ExternDLL.exe
+C:\VCS\WawiExternDLL\ExternDLL\obj\Debug\ExternDLL.pdb

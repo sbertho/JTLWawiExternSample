@@ -1,0 +1,7 @@
+C:\VCS\WawiExternDLL\WawiCoreTest\bin\Debug\WawiCoreTest.exe.config
+C:\VCS\WawiExternDLL\WawiCoreTest\bin\Debug\WawiCoreTest.exe
+C:\VCS\WawiExternDLL\WawiCoreTest\bin\Debug\WawiCoreTest.pdb
+C:\VCS\WawiExternDLL\WawiCoreTest\obj\Debug\WawiCoreTest.exe.config
+C:\VCS\WawiExternDLL\WawiCoreTest\obj\Debug\WawiCoreTest.csproj.CoreCompileInputs.cache
+C:\VCS\WawiExternDLL\WawiCoreTest\obj\Debug\WawiCoreTest.exe
+C:\VCS\WawiExternDLL\WawiCoreTest\obj\Debug\WawiCoreTest.pdb
