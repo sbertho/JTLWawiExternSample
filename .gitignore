@@ -7,6 +7,7 @@
 *.com
 *.class
 *.dll
+!JTLwawiExtern.dll
 *.exe
 *.pdb
 *.dll.config
