@@ -47,13 +47,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyProgram.cs" />
+    <Compile Include="Core\WawiCredentials.cs" />
+    <Compile Include="JTL\InvalidWawiVersionException.cs" />
+    <Compile Include="JTL\WawiConnectorService.cs" />
+    <Compile Include="Core\MyProgram.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ValidateAssembly.cs" />
+    <Compile Include="JTL\WawiNotFoundException.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

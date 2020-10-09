@@ -1,22 +1,25 @@
 ﻿using System;
+using WawiCoreTest.Core;
+using WawiCoreTest.JTL;
 
 namespace WawiCoreTest
 {
+    /// <summary>
+    ///     Wir nutzen die JTLWawiExtern.dll aus der JTL-Wawi Installation. Damit die Assemblys der JTL-Wawi nachgeladen
+    ///     werden können, müssen wir dem AssemblyResolver sagen, dass er auch im Verzeichnis der JTL-Wawi suchen muss.
+    ///     Das übernimmt der WawiConnectorService. Allerdings darf dann in allen Klassen, die *vor* dem Aufruf des
+    ///     WawiConnectorService *initialisiert* werden (also insbesondere statische Klassen und die Hauptklasse) keine
+    ///     Referenz auf die JTLWawiExtern.dll enthalten sein.
+    ///     Deshalb gehen wir hier den Weg über eine zweite Klasse, in der die eigentliche Programmlogik liegt.
+    /// </summary>
     internal class Program
     {
         private static void Main(string[] args)
         {
-            var validateAssembly = new ValidateAssembly();
-            if (!validateAssembly.IsValid)
-            {
-                Console.WriteLine("Problem: Keine installierte JTL-Wawi Version gefunden.");
-                return;
-            }
+            WawiConnectorService.Connect(new Version(1, 5, 10, 0));
 
-            // Da wir die Assembly-Auflösung umbiegen, darf die Startassembly keinen Verweis auf die
-            // JTLWawiExtern.dll haben. Deshalb lagern wir den Kram in eine eigene Klasse aus.
             var program = new MyProgram();
-            program.Run();
+            program.Run(args);
         }
     }
 }
